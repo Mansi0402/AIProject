@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+}
+.heading{
+    background-color: #3a3240;
+    height: 100px;
+    overflow: hidden;
+}
+
+.heading a{
+    text-decoration: none;
+    float: right;
+    text-align: center;
+    font-size: 25px;
+    padding: 32px 45px;
+    color: white;
+}
+
+.heading a:hover{
+    color: rgb(175, 43, 43);
+}
+
+#Logout{
+    padding-left: 100px;
+}
+
+#logo{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 260px;
+    height: 90px;
+}
+
+.Column{
+    background-color: #e8e8e8;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.Column a{
+    text-decoration: none;
+    text-align: left;
+    border:1px solid #ddd3d3;
+    color: black;
+    padding: 20px 15px;
+}
+
+.Column a:hover{
+    padding: 20px 15px;
+    background-color: white;
+    color: rgb(175, 43, 43);
+}
+
+.Column a:active{
+    padding: 20px 15px;
+    background-color: white;
+    color: blue;
+}
